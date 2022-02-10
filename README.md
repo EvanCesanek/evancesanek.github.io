@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+![headshot](/assets/evan.jpg)
+### Evan Cesanek
 
-You can use the [editor on GitHub](https://github.com/EvanCesanek/evancesanek.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+[Italian Academy](https://italianacademy.columbia.edu) Fellow, Spring 2022
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Postdoctoral Research Scientist in the [Wolpert Lab](https://wolpertlab.neuroscience.columbia.edu)
 
-### Markdown
+### My research
+My research focuses on a truly fundamental human ability: **physically interacting with objects**. This deeply rooted survival skill resides at the apex of many of the major brain functions targeted by modern cognitive neuroscience, including **perception** (object recognition, 3D shape, haptics), **learning & memory** (prediction errors, cost functions, representational formats), **reasoning** (intuitive physics, tool use & design), and **social cognition** (action understanding). Much of my work is motivated by the belief that fundamental mechanisms of human cognition have been directly shaped by the computational demands of skillful object manipulation in a world populated with an endless diversity of objects.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+By combining 3D virtual reality and sophisticated haptic feedback, my experiments require people to interact with novel objects with tightly controlled visual and physical properties. This approach has allowed me to examine basic components of object manipulation, such as how we learn to appropriately [shape our grip](/) when grasping objects. It has also served as a lens to explore thorny theoretical issues, in particular the connection between real-time motor control and conscious visual perception. Recently, the same approach led me to discover a key principle explaining how broad sensorimotor repertoires that support interactions with multiple objects are efficiently stored in memory.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/EvanCesanek/evancesanek.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+CV [here](/assets/cv.pdf)
