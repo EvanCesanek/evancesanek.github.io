@@ -1,6 +1,5 @@
 theme: jekyll-theme-minimal
 title: Evan Cesanek
-description: Hey welcome to my website!
 logo: './logo.jpg'
 github:
   is_project_page: false
