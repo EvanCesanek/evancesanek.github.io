@@ -5,6 +5,8 @@
 
 [Postdoctoral Research Scientist, Wolpert Lab](https://wolpertlab.neuroscience.columbia.edu)
 
+<a href="https://twitter.com/evcesanek"><img src="twitter-logo.svg" alt="link to twitter profile" width="50"/></a>
+
 ### My research
 My research focuses on a truly fundamental human ability: **physically interacting with objects**. This critical survival skill provides an ideal testbed to investigate the mechanisms of multiple brain functions and the ways in which they interact in service of complex behavior. For example, studies of object manipulation provide a window into **perception** (object recognition, 3D shape, haptics), **learning & memory** (prediction errors, cost functions, representational units), **reasoning** (intuitive physics, tool use & design), and **social cognition** (action understanding). Accordingly, my work is motivated by the idea that the algorithms of general human intelligence were significantly shaped by the computational demands of skillful sensorimotor control in a world filled with an endless diversity of objects.
 
