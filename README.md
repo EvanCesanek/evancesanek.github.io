@@ -5,8 +5,6 @@
 
 [Postdoctoral Research Scientist, Wolpert Lab](https://wolpertlab.neuroscience.columbia.edu)
 
-<a href="https://twitter.com/evcesanek"><img src="twitter-logo.svg" alt="link to twitter profile" width="50"/></a>
-
 ### My research
 My research focuses on a truly fundamental human ability: **physically interacting with objects**. This essential and highly adaptable skill is a model behavior through which we can investigate the mechanisms of multiple brain functions. Studies of object manipulation have provided a window into **perception** (object recognition, 3D shape, haptics), **learning & memory** (prediction errors, cost functions, representational units), **reasoning** (intuitive physics, tool use & design), and **social cognition** (action understanding). Accordingly, my work is motivated by the idea that the algorithms of general human intelligence are significantly shaped by the computational problem of _adaptively controlling interactions with a nearly endless diversity of objects_.
 
@@ -15,3 +13,5 @@ I found my way to this research mainly through my complementary interests in **i
 My experiments blend these methodologies to create novel but realistic interactions with "virtual objects" (_i.e.,_ objects programmatically bestowed with specific visual/mechanical properties). This approach has been broadly productive: it has allowed me to examine **basic components of object manipulation**, such as how we control the shape of our grip during grasping movements; it has served as a lens to explore **thorny theoretical controversies**, in particular the connection between real-time motor control and conscious visual perception; and it has revealed **new theoretical principles of sensorimotor processing**, for instance by illuminating the role of predictive internal models in 3D perception, or demonstrating how multiple objects can be efficiently stored in memory.
 
 CV [here](/assets/cv.pdf)
+
+<a href="https://twitter.com/evcesanek"><img src="twitter-logo.svg" alt="link to twitter profile" width="35"/></a>
