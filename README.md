@@ -1,4 +1,4 @@
-<img src="evan.jpg" alt="headshot of evan" width="200"/>
+<!--img src="evan.jpg" alt="headshot of evan" width="200"/-->
 ### Evan Cesanek
 
 [Italian Academy Fellow, Spring 2022](https://italianacademy.columbia.edu)
