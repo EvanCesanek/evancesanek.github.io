@@ -2,7 +2,7 @@
 [Italian Academy Fellow, Spring 2022](https://italianacademy.columbia.edu)<br>
 [Postdoctoral Research Scientist, Wolpert Lab](https://wolpertlab.neuroscience.columbia.edu)
 
-### Science
+### About my science
 The goal of my research is to understand how humans learn to **skillfully interact with physical objects**. As an essential function of daily life — one that is often significantly disrupted by neurological injury — object manipulation is an important topic of study in its own right. But it's also an excellent model behavior for neuroscience in general because it opens a window onto the mechanisms of multiple brain functions, including  **perception** (object recognition, 3D shape, haptics), **learning & memory** (prediction errors, cost functions, representational units), **high-level reasoning** (intuitive physics, tool use & design), and **social cognition** (action understanding). Accordingly, my research pursues the idea that the algorithms used by the human brain have been significantly shaped by the computational problem of _adaptively controlling interactions with a nearly endless diversity of objects_.
 
 I decided to focus on this field mainly because it's an interesting and scientifically productive way to apply my love for **interactive tech and data analysis**. When I'm not thinking about brain and behavior, I'm trying to keep up with the latest developments in _3D graphics, interactive design, VR/AR/XR, haptics, crowdsourcing, and machine learning_.
