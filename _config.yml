@@ -2,4 +2,5 @@ theme: jekyll-theme-minimal
 title: Evan Cesanek
 description: Personal webpage of Evan Cesanek
 logo: './logo.jpg'
-github: is\_project\_page: false
+github:
+  is_project_page: false
