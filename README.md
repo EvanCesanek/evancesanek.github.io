@@ -1,3 +1,4 @@
+### Current appointments
 [Italian Academy Fellow, Spring 2022](https://italianacademy.columbia.edu)<br>
 [Postdoctoral Research Scientist, Wolpert Lab](https://wolpertlab.neuroscience.columbia.edu)
 
@@ -7,7 +8,3 @@ The goal of my research is to understand how humans learn to **skillfully intera
 I decided to focus on this field mainly because it's an interesting and scientifically productive way to apply my love for **interactive tech and data analysis**. When I'm not thinking about brain and behavior, I'm trying to keep up with the latest developments in _3D graphics, interactive design, VR/AR/XR, haptics, crowdsourcing, and machine learning_.
 
 In my experiments, I blend these methodologies to create novel but realistic interactions with "virtual objects" (_i.e.,_ objects programmatically bestowed with specific visual/mechanical properties). Fortunately, I've found success with this approach across a range of research questions. My work has examined **basic components of grasping and manipulation**, such as how we conform the shape of our grip to the 3D shape of an object. I've engaged with thorny **theoretical controversies**, like the relationship between real-time action and conscious visual perception. And I've contributed to the development of **new theoretical principles of sensorimotor processing**, for instance by illuminating the role of forward models in 3D motion perception, and demonstrating that objects are categorized into "families" in motor memory.
-
-[View my CV here](./curriculum-vitae.pdf)
-
-<a href="https://twitter.com/evcesanek"><img src="twitter-logo.svg" alt="link to twitter profile" width="35"/></a>
