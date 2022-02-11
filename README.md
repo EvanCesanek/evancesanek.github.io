@@ -1,12 +1,8 @@
-<!--img src="evan.jpg" alt="headshot of evan" width="200"/-->
-### Evan Cesanek
-
-[Italian Academy Fellow, Spring 2022](https://italianacademy.columbia.edu)
-
+[Italian Academy Fellow, Spring 2022](https://italianacademy.columbia.edu)<br>
 [Postdoctoral Research Scientist, Wolpert Lab](https://wolpertlab.neuroscience.columbia.edu)
 
-### My research
-My research focuses on a truly fundamental human ability: **physically interacting with objects**. This essential and highly adaptable skill is a model behavior through which we can investigate the mechanisms of multiple brain functions. Studies of object manipulation have provided a window into **perception** (object recognition, 3D shape, haptics), **learning & memory** (prediction errors, cost functions, representational units), **reasoning** (intuitive physics, tool use & design), and **social cognition** (action understanding). Accordingly, my work is motivated by the idea that the algorithms of general human intelligence are significantly shaped by the computational problem of _adaptively controlling interactions with a nearly endless diversity of objects_.
+### About my research
+I try to understand how humans are so good at **physically interacting with objects**. This essential, highly adaptable skill is a model behavior that serves a window to study multiple brain functions, tapping into **perception** (object recognition, 3D shape, haptics), **learning & memory** (prediction errors, cost functions, representational units), **high-level reasoning** (intuitive physics, tool use & design), and **social cognition** (action understanding). Accordingly, my work pursues the idea that the algorithms used by the human brain are significantly shaped by the computational problem of _adaptively controlling interactions with a nearly endless diversity of objects_.
 
 I found my way to this research mainly through my complementary interests in **interactive tech and data science**. When I'm not thinking about brain and behavior, I love experimenting with _3D graphics, interactive design, immersive virtual reality, haptic feedback, crowdsourcing, and machine learning_.
 
