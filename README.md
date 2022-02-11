@@ -11,7 +11,3 @@ My research focuses on a truly fundamental human ability: **physically interacti
 I found my way to this research mainly through my complementary interests in **interactive tech and data science**. When I'm not thinking about brain and behavior, I love experimenting with _3D graphics, interactive design, immersive virtual reality, haptic feedback, crowdsourcing, and machine learning_.
 
 My experiments blend these methodologies to create novel but realistic interactions with "virtual objects" (_i.e.,_ objects programmatically bestowed with specific visual/mechanical properties). This approach has been broadly productive: it has allowed me to examine **basic components of object manipulation**, such as how we control the shape of our grip during grasping movements; it has served as a lens to explore **thorny theoretical controversies**, in particular the connection between real-time motor control and conscious visual perception; and it has revealed **new theoretical principles of sensorimotor processing**, for instance by illuminating the role of predictive internal models in 3D perception, or demonstrating how multiple objects can be efficiently stored in memory.
-
-CV [here](./Cesanek-CV.pdf)
-
-<a href="https://twitter.com/evcesanek"><img src="twitter-logo.svg" alt="link to twitter profile" width="35"/></a>
