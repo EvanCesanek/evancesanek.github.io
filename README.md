@@ -1,4 +1,4 @@
-![headshot](/assets/evan.jpg)
+![headshot](./evan.jpg)
 ### Evan Cesanek
 
 [Italian Academy Fellow, Spring 2022](https://italianacademy.columbia.edu)
