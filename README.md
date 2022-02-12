@@ -1,8 +1,4 @@
-## Cognitive neuroscientist residing in Brooklyn, NY 👁✋🧠
-
-### 🥐☕️🍑🥗🍟🌯🥑🌽🍺🍕🦪🥂🥟🧄🥦🍷🍝🧀🍸🍪
-### ⛷🎾🏌️🎯🏓🏄‍♂️🎱🥏🏹🎳🛹🪃🧑‍🎨🎣🚴⛄️🌷🪶🐚🪢
-### 🧷🔩🔑🪒🔌💡📱🛎🔪📷🔨🪚🎁🌂🧯🪟🚪
+## Cognitive neuroscientist | BK,NY | 👁 ✋ 🧠
 
 ### Current appointments
 [Italian Academy Fellow, Spring 2022](https://italianacademy.columbia.edu)<br>
@@ -16,3 +12,7 @@ The reason I started doing this work, and one the main reasons I've stuck with i
 In the classroom, I've seen firsthand how incorporating these technologies in approachable, hands-on demos and projects can **draw out a desire to learn and practice science in students from all backgrounds**. You might even take this as evidence that interacting with objects leads to knowledge that is uniquely flexible and expressive, providing a **foundation for active individual contributions** (...or maybe these things are just fun, practical, and engaging! 🤷‍♂️😅🧀)
 
 In my experiments, I blend these methodologies to create novel but intuitive modes of interaction with **virtual objects** (_i.e.,_ objects programmatically bestowed with specific visual/mechanical properties). I've successfully applied this approach to address a range of questions at multiple levels of inquiry. In some of my work, I've examined the **mechanisms of behavioral and psychophysical phenomena** in sensorimotor tasks, such as how we shape our hands to interact with 3D objects, or how 3D motion perception is affected by internally generated predictions. In other work, I've engaged in thorny **debates in the philosophy of mind**, particularly regarding the relationship between real-time action and conscious visual perception. Most recently, I've helped develop a new perspective on the **computational principles of sensorimotor-repertoire learning** by demonstrating that objects are encoded categorically in motor memory.
+
+🥐☕️🍑🥗🍟🌯🥑🌽🍺🍕🦪🥂🥦🍷🍝🧀🍸🍪
+⛷🎾🏌️🎯🎳🏄‍♂️🎱🌷🥏🏹🛹🏓🪃🧑‍🎨🎣🚴⛄️🪢
+🧷🔩🔑🪒🔌💡🐚📱🛎🔪📷🔨🪚🎁🌂🧯🪟🚪
