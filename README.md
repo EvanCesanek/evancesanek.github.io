@@ -1,3 +1,9 @@
+## Cognitive neuroscientist residing in Brooklyn, NY 👁✋🧠
+
+### 🥐☕️🍑🥗🍟🌯🥑🌽🍺🍕🦪🥂🥟🧄🥦🍷🍝🧀🍸🍪
+### ⛷🎾🏌️🎯🏓🏄‍♂️🎱🥏🏹🎳🛹🪃🧑‍🎨🎣🚴⛄️🌷🪶🐚🪢
+### 🧷🔩🔑🪒🔌💡📱🛎🔪📷🔨🪚🎁🌂🧯🪟🚪
+
 ### Current appointments
 [Italian Academy Fellow, Spring 2022](https://italianacademy.columbia.edu)<br>
 [Postdoctoral Research Scientist, Wolpert Lab](https://wolpertlab.neuroscience.columbia.edu)
