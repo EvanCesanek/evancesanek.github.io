@@ -1,4 +1,4 @@
-## Cognitive neuroscientist | BK,NY | 👁 ✋ 🧠
+## Cognitive Neuroscientist | 👁 ✋ 🧠 | Brooklyn, NY
 
 ### Current appointments
 [Italian Academy Fellow, Spring 2022](https://italianacademy.columbia.edu)<br>
