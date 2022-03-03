@@ -167,8 +167,6 @@
       // IMPORTANT: Set to false before deploying
       var logFlag = false; // print messages to debug console?
       if (!logFlag){ console.log = function(){}; }
-      document.getElementById('fullscreen-content').style.display = 'block';
-      //bypassForms(true,true); // allow user to skip consent and survey forms?
       var localSave = false; //save data button on fullscreen & code pages?
       if(!localSave){
         ['local-save-button-1','local-save-button-2'].forEach(function(btnName){
@@ -212,6 +210,7 @@
       exp.targetAngles = linspace(exp.targetAngle0, exp.targetAngle0 + 2 * Math.PI, exp.numObjects + 1);
       exp.targetAngles.pop();
       
+      bypassForms(true,true); // allow user to skip consent and survey forms?
       exp.condition = 0;
 
       switch (exp.condition){
