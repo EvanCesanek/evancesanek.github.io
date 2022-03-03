@@ -19,12 +19,6 @@
     <!-- *** WJS *** -->
     <script src="wjs_core_ec.js"></script>
 
-    <!-- *** FIREBASE *** -->
-    <script src='/__/firebase/8.10.0/firebase-app.js'></script>
-    <script src='/__/firebase/8.10.0/firebase-auth.js'></script>
-    <script src='/__/firebase/8.10.0/firebase-database.js'></script>
-    <script src='/__/firebase/init.js?useEmulator=true'></script>
-
   </head>
   <body id="body">
 
@@ -173,7 +167,7 @@
       // IMPORTANT: Set to false before deploying
       var logFlag = false; // print messages to debug console?
       if (!logFlag){ console.log = function(){}; }
-      bypassForms(false,false); // allow user to skip consent and survey forms?
+      bypassForms(true,true); // allow user to skip consent and survey forms?
       var localSave = false; //save data button on fullscreen & code pages?
       if(!localSave){
         ['local-save-button-1','local-save-button-2'].forEach(function(btnName){
@@ -217,7 +211,7 @@
       exp.targetAngles = linspace(exp.targetAngle0, exp.targetAngle0 + 2 * Math.PI, exp.numObjects + 1);
       exp.targetAngles.pop();
       
-      exp.condition = randomInteger(0,3); // CHOOSE THE CONDITION
+      exp.condition = 0; //randomInteger(0,3); // CHOOSE THE CONDITION
       while (exp.condition==1){
         exp.condition = randomInteger(0,3); // CHOOSE THE CONDITION
       }
@@ -236,7 +230,7 @@
           exp.testRepetitions = 15;
           exp.outlierId = randomInteger(0,exp.targetIds.length-1);
           exp.globalRotation = 20 * Math.PI/180;
-          exp.outlierRotation = 10 * Math.PI/180;
+          exp.outlierRotation = 20 * Math.PI/180;
           exp.targetRotations = new Array(exp.targetIds.length).fill(exp.globalRotation);
           exp.targetRotations[exp.outlierId] = exp.outlierRotation;
           break;
@@ -624,10 +618,11 @@
         
         // Check firebase, fullscreen, and pointer lock (unless in a state where they can be off)
         if (!isMember(state.current, [state.CONNECTION, state.FULLSCREEN, state.PAUSE])) {
-          if (!FB){ // firebase connection flag
-            cursor.disableMovement = true;
-            state.push(state.CONNECTION);
-          }else if (!FS || !PL) { // fullscreen and pointer lock flags
+          //if (!FB){ // firebase connection flag
+          //  cursor.disableMovement = true;
+          //  state.push(state.CONNECTION);
+          //}else 
+          if (!FS || !PL) { // fullscreen and pointer lock flags
             cursor.disableMovement = true;
             state.push(state.FULLSCREEN); // pushing the state effectively 'saves' the current state
           }
@@ -745,9 +740,9 @@
             trial.canvas = [canvas.width, canvas.height];
             trial.points = points.total;
             // save the trial object, set flag in succesful callback
-            firebaseTrialSave(trial, function() {
-              saveSuccessful = true;
-            });
+            //firebaseTrialSave(trial, function() {
+            saveSuccessful = true;
+            //});
             state.next(state.ADVANCE);
             break;
 
@@ -758,22 +753,26 @@
             }
             trialNumber++;
             document.getElementById('progressbar-inner').style.width = 100 * (trialNumber) / numTrials + '%';
+            if (trialNumber==numTrials){
+              trialNumber = 0;
+            }
             if (trialNumber < numTrials) {
               if (exp.renderMode=='3d'){
                 setModelParam(target, 'scale', trial.targetId, target.scale[trial.targetId][0], 1);
               }
               initTrial(trialNumber);
-            } else {
-              state.next(state.PAUSE);
-              firebaseExperimentComplete(function(){
-                experimentFinished = true;
-                wjsExitFullscreen(document);
-                document.getElementById('code-text').value = generateCompletionCode();
-                document.getElementById('trial-content').style.display = 'none';
-                document.getElementById('code-content').style.display = 'block';
-                document.getElementById('bonus-text').innerHTML = 'Thank you for your help! You earned a bonus of ' + points.text + '.';
-              });
             }
+            // else {
+            //   state.next(state.PAUSE);
+            //   firebaseExperimentComplete(function(){
+            //     experimentFinished = true;
+            //     wjsExitFullscreen(document);
+            //     document.getElementById('code-text').value = generateCompletionCode();
+            //     document.getElementById('trial-content').style.display = 'none';
+            //     document.getElementById('code-content').style.display = 'block';
+            //     document.getElementById('bonus-text').innerHTML = 'Thank you for your help! You earned a bonus of ' + points.text + '.';
+            //   });
+            // }
             break;
 
           case state.FULLSCREEN:
@@ -1063,9 +1062,9 @@
           event.preventDefault(); // prevent the default form submission
           document.getElementById('consent-content').style.display = 'none';
           document.getElementById('survey-content').style.display = 'block';
-          firebaseSignIn(function() {
-            document.getElementById('survey-button').removeAttribute('disabled')
-          });
+          //firebaseSignIn(function() {
+          //  document.getElementById('survey-button').removeAttribute('disabled')
+          //});
         });
         
         // SURVEY
@@ -1082,7 +1081,7 @@
           // experiment-specific:
           surveydata.experimentSettings = exp;
           document.getElementById('survey-button').setAttribute('disabled','');
-          firebaseTrialSave(surveydata, function() {
+          //firebaseTrialSave(surveydata, function() {
             document.getElementById('survey-content').style.display = 'none';
             document.getElementById('instructions-content').style.display = 'block';
             document.getElementById('instructions-button').innerHTML = 'Start (' + exp.instructionsWaitDuration + ')';
@@ -1096,7 +1095,7 @@
                 document.getElementById('instructions-button').innerHTML = 'Start (' + exp.instructionsWaitDuration + ')';
               }
             }, 1000);
-          });
+          //});
         });
 
         // INSTRUCTIONS
@@ -1201,17 +1200,17 @@
         });
         
         // FIREBASE DISCONNECT
-        firebase.database().ref().child('.info/connected').on('value', function(connectedSnap) {
-          if (connectedSnap.val() === true) {
-            document.getElementById('page-content').style.display = 'block';
-            document.getElementById('connection-content').style.display = 'none';
-            FB = true;
-          } else {
-            document.getElementById('page-content').style.display = 'none';
-            document.getElementById('connection-content').style.display = 'block';
-            FB = false;
-          }
-        });
+        // firebase.database().ref().child('.info/connected').on('value', function(connectedSnap) {
+        //   if (connectedSnap.val() === true) {
+        //     document.getElementById('page-content').style.display = 'block';
+        //     document.getElementById('connection-content').style.display = 'none';
+        //     FB = true;
+        //   } else {
+        //     document.getElementById('page-content').style.display = 'none';
+        //     document.getElementById('connection-content').style.display = 'block';
+        //     FB = false;
+        //   }
+        // });
       }
 
       function handleStateChange() {
