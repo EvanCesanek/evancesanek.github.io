@@ -167,7 +167,8 @@
       // IMPORTANT: Set to false before deploying
       var logFlag = false; // print messages to debug console?
       if (!logFlag){ console.log = function(){}; }
-      bypassForms(true,true); // allow user to skip consent and survey forms?
+      document.getElementById('fullscreen-content').style.display = 'block';
+      //bypassForms(true,true); // allow user to skip consent and survey forms?
       var localSave = false; //save data button on fullscreen & code pages?
       if(!localSave){
         ['local-save-button-1','local-save-button-2'].forEach(function(btnName){
@@ -211,17 +212,7 @@
       exp.targetAngles = linspace(exp.targetAngle0, exp.targetAngle0 + 2 * Math.PI, exp.numObjects + 1);
       exp.targetAngles.pop();
       
-      exp.condition = 0; //randomInteger(0,3); // CHOOSE THE CONDITION
-      while (exp.condition==1){
-        exp.condition = randomInteger(0,3); // CHOOSE THE CONDITION
-      }
-      /* If we got condition 0, repeat with 50% chance (bc we want twice as many in 2 & 3)
-      if (exp.condition===0 && randomInteger(0,1)===1){
-        exp.condition = randomInteger(0,3); // CHOOSE THE CONDITION
-        while (exp.condition==1){
-          exp.condition = randomInteger(0,3); // CHOOSE THE CONDITION
-        }
-      }*/
+      exp.condition = 0;
 
       switch (exp.condition){
         case 0:
@@ -488,6 +479,7 @@
       }
       
       addEventListeners();
+      initTrial(trialNumber); // this should be the first call to initTrial
       mainLoopFunc(); // requires calcFunc(), stateFunc(), and displayFunc() to be defined
 
       function initTrial(trialNumber) {

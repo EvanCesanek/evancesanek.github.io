@@ -692,8 +692,8 @@ function bypassForms(bypass,skip=false){
   if (skip){
     document.getElementById('consent-content').style.display = 'none';
     //firebaseSignIn(function() {
-      initTrial(trialNumber); // this should be the first call to initTrial
-      document.getElementById('fullscreen-content').style.display = 'block';
+      //initTrial(trialNumber); // this should be the first call to initTrial
+      //document.getElementById('fullscreen-content').style.display = 'block';
     //});
   }else if (bypass) {
     document.body.querySelectorAll('input').forEach(x => x.removeAttribute('required'));
