@@ -18,4 +18,7 @@ In my experiments, I blend these methodologies to create novel but intuitive mod
 🧷🔩🔑🪒🔌💡🐚📱🛎🔪📷🔨🪚🎁🌂🧯🪟🚪<br>
 
 ### Motor learning games
-Motor memory of task kinematics: <a href="/demos/vmr/vmr.html">cursor perturbation</a>
+I'm slowly updating this section with demos of web-based motor learning experiments I've created.
+More to come!
+
+Learning novel task kinematics: <a href="/demos/vmr/vmr.html">cursor perturbation</a>
