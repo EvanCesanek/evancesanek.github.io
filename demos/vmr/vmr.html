@@ -748,7 +748,7 @@
               break;
             }
             trialNumber++;
-            document.getElementById('progressbar-inner').style.width = 100 * (trialNumber) / numTrials + '%';
+            //document.getElementById('progressbar-inner').style.width = 100 * (trialNumber) / numTrials + '%';
             if (trialNumber==numTrials){
               trialNumber = 0;
             }
@@ -1189,11 +1189,11 @@
         window.addEventListener('resize', handleResize);
         
         // PAGE CLOSE ALERT
-        window.addEventListener('beforeunload', function(){
-          if(!experimentFinished){
-            return event.returnValue = 'Are you sure you want to quit?';
-          }
-        });
+        // window.addEventListener('beforeunload', function(){
+        //   if(!experimentFinished){
+        //     return event.returnValue = 'Are you sure you want to quit?';
+        //   }
+        // });
         
         // FIREBASE DISCONNECT
         // firebase.database().ref().child('.info/connected').on('value', function(connectedSnap) {
