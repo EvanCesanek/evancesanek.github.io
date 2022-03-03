@@ -17,4 +17,5 @@ In my experiments, I blend these methodologies to create novel but intuitive mod
 ⛷🎾🏌️🎯🎳🏄‍♂️🎱🌷🥏🏹🛹🏓🪃🧑‍🎨🎣🚴⛄️🪢<br>
 🧷🔩🔑🪒🔌💡🐚📱🛎🔪📷🔨🪚🎁🌂🧯🪟🚪<br>
 
-<a href="/demos/vmr/vmr_gp2.html">VMR demo</a>
+### Motor learning games
+<a href="/demos/vmr/vmr_gp2.html">Visuomotor rotation</a>
