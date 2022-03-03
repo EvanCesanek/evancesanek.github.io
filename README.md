@@ -18,4 +18,4 @@ In my experiments, I blend these methodologies to create novel but intuitive mod
 🧷🔩🔑🪒🔌💡🐚📱🛎🔪📷🔨🪚🎁🌂🧯🪟🚪<br>
 
 ### Motor learning games
-<a href="/demos/vmr/vmr.html">Visuomotor rotation</a>
+Motor memory of task kinematics: <a href="/demos/vmr/vmr.html">cursor perturbation</a>
