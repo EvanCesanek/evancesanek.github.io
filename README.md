@@ -1,7 +1,6 @@
 ## Cognitive neuroscientist 👁✋🧠
 
 ### Current appointments
-[Italian Academy Fellow, Spring 2022](https://italianacademy.columbia.edu)<br>
 [Research Scientist, Wolpert Lab](https://wolpertlab.neuroscience.columbia.edu)
 
 ### About my work
