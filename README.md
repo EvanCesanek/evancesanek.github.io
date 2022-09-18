@@ -1,4 +1,4 @@
-## Cognitive neuroscientist 👁✋🧠
+## Cognitive neuroscientist
 
 ### Current appointments
 [Research Scientist, Wolpert Lab](https://wolpertlab.neuroscience.columbia.edu)
