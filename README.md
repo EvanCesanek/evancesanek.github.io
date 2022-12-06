@@ -1,6 +1,6 @@
-### Research Scientist
+<h3>Research Scientist</h3>
 
-### [Wolpert Lab @ Columbia University](https://wolpertlab.neuroscience.columbia.edu)
+<h4><a href="https://wolpertlab.neuroscience.columbia.edu" target="_blank">Wolpert Lab @ Columbia University</a></h4>
 
 I study how humans learn to **skillfully interact with objects**. Not only is the ability to manipulate objects essential in our daily lives, it's also an excellent model behavior for cognitive neuroscience because it naturally recruits many different types of neural processing. Just scratching the surface, we can see the involvement of <a href="javascript:void(0)" data-toggle="tooltip" title="" data-html="true" data-original-title="&bull; 3D shape analysis<br>&bull; object recognition<br>&bull; haptic feedback<br>&bull; multisensory integration"><b>perception</b></a>, <a href="javascript:void(0)" data-toggle="tooltip" title="" data-html="true" data-original-title="&bull; generalization<br>&bull; prediction errors<br>&bull; cost functions<br>&bull; representational formats"><b>learning & memory</b></a>, <a href="javascript:void(0)" data-toggle="tooltip" title="" data-html="true" data-original-title="&bull; sequential planning<br>&bull; intuitive physics<br>&bull; tool use & design"><b>reasoning</b></a>, and <a href="javascript:void(0)" data-toggle="tooltip" title="" data-html="true" data-original-title="&bull; action understanding<br>&bull; gesture & pantomime"><b>social cognition</b></a>.
 
