@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
 title: Evan Cesanek
-logo: './evan2.jpg'
+logo: "./logo.jpg"
 github:
   is_project_page: false

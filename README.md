@@ -1,5 +1,3 @@
-## Cognitive neuroscientist
-
 ### Current appointment
 
 [Research Scientist, Wolpert Lab](https://wolpertlab.neuroscience.columbia.edu)
