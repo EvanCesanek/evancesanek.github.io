@@ -1,5 +1,4 @@
 theme: jekyll-theme-minimal
-title: Evan Cesanek
 logo: "./logo.jpg"
-github:
-  is_project_page: false
+title: Evan Cesanek
+description: Evan Cesanek is a cognitive scientist with expertise in experimental design, data science, and software engineering. He earned his PhD from Brown University and works as a Research Scientist in Columbia University's Zuckerman Institute. His work focuses on human sensorimotor function.
