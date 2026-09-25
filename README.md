@@ -1,10 +1,10 @@
-<h3>Computational User Scientist - AI/ML Data</h3>
+<h3>User Scientist - AI/ML Data</h3>
 
 <h4>Currently <a href="https://www.exponent.com/expertise/user-sciences" target="_blank">Managing Scientist at Exponent</a></h4>
 
 As a User Sciences consultant, I help Exponent's clients solve complex technical problems related to user data acquisition, cleaning, organization, storage, analysis, and insight. Since 2023, I have managed large-scale user study operations that leverage advanced sensors to gather data from thousands of users in sophisticated research protocols. This work provides engineering teams with the diverse-yet-structured data they need to continually improve the AI/ML products and algorithms we rely on every day. 
 
-<h4>Previously <a href="https://wolpertlab.neuroscience.columbia.edu" target="_blank">Wolpert Lab at Columbia University</a> and <a href="https://sites.brown.edu/3dipalab/ target="_blank">3D IPA Lab at Brown University</h4>
+<h4>Previously <a href="https://wolpertlab.neuroscience.columbia.edu" target="_blank">Wolpert Lab at Columbia University</a> and <a href="https://sites.brown.edu/3dipalab/" target="_blank">3D IPA Lab at Brown University</a></h4>
 
 In my prior academic career as a cognitive neuroscientist, I investigated human sensorimotor function, often focusing on **how humans learn to skillfully interact with objects**. Object manipulation is obviously essential in our daily lives, but it's also an excellent model behavior for cognitive neuroscience because it relies on many different cognitive processes including <a href="javascript:void(0)" data-toggle="tooltip" title="" data-html="true" data-original-title="&bull; 3D shape analysis<br>&bull; object recognition<br>&bull; haptic feedback<br>&bull; multisensory integration"><b>perception</b></a>, <a href="javascript:void(0)" data-toggle="tooltip" title="" data-html="true" data-original-title="&bull; generalization<br>&bull; prediction errors<br>&bull; cost functions<br>&bull; representational formats"><b>learning & memory</b></a>, <a href="javascript:void(0)" data-toggle="tooltip" title="" data-html="true" data-original-title="&bull; sequential planning<br>&bull; intuitive physics<br>&bull; tool use & design"><b>reasoning</b></a>, and <a href="javascript:void(0)" data-toggle="tooltip" title="" data-html="true" data-original-title="&bull; action understanding<br>&bull; gesture & pantomime"><b>social cognition</b></a>.
 
